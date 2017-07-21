@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/gary_light">
+
+        <TextView
+            android:id="@+id/add_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="‹"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加详情"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/add_detail_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="确认"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/a_d_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableLeft="@mipmap/add_bold_ico"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <CheckBox
+            android:id="@+id/a_d_color"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableLeft="@mipmap/add_color_ico"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <CheckBox
+            android:id="@+id/a_d_underline"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableLeft="@mipmap/add_underline_ico"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <CheckBox
+            android:id="@+id/a_d_textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableLeft="@mipmap/add_textsize_ico"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+        <CheckBox
+            android:id="@+id/a_d_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:drawableLeft="@mipmap/add_img_ico"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </LinearLayout>
+
+    <View style="@style/Line_H_Drak" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/a_d_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

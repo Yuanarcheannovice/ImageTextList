@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 黑色-->
+    <color name="black">#FF000000</color>
+    <!-- 白色-->
+    <color name="white">#ffffff</color>
+    <!-- 灰色-->
+    <color name="gary">#FF888888</color>
+    <!-- 浅灰色-->
+    <color name="gary_light">#FFeeeeee</color>
+    <!-- 橙色-->
+    <color name="orange">#fba45c</color>
+    <!-- 绿色-->
+    <color name="green">#64d20a</color>
+</resources>

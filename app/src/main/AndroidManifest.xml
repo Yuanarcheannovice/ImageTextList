@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xz.list">
+
+    <uses-permission android:name="android.permission.CAMERA"><!--允许访问摄像头进行拍照--></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"><!--允许程序写入外部存储，如SD卡上写文件--></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"><!--读外置存储权限--></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"><!--访问网络连接，可能产生GPRS流量--></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".app.AppApplication"
+        tools:replace=" android:name,android:allowBackup,android:icon,android:label,android:supportsRtl,android:theme,android:roundIcon">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddItemDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MainDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
+
+        <activity android:name="me.iwf.photopicker.PhotoPagerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+    </application>
+
+</manifest>
