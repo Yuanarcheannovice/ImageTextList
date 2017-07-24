@@ -3,4 +3,8 @@
 
 暂时只加上了图片的增,删,改,替功能;
 
-文字的处理,暂未实现  
+文字的处理,暂未实现
+
+
+
+![image](https://github.com/Yuanarcheannovice/ImageTextList/tree/master/img/imageTextList.gif)
