@@ -7,4 +7,4 @@
 
 
 
-![image](https://github.com/Yuanarcheannovice/ImageTextList/tree/master/img/imageTextList.gif)
+![gif](https://github.com/Yuanarcheannovice/ImageTextList/tree/master/img/imageTextList.gif)
